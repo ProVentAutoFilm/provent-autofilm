@@ -1,0 +1,25 @@
+ProVent AutoFilm — update validation, 12 October 2026
+
+PASSED — file/code checks
+- One functioning static document with Home, Services, Gallery, About, FAQs and Contact sections.
+- All internal section targets exist; all referenced assets and responsive image alternatives exist.
+- Twenty individual supplied images, ten in Vehicles and ten in Installation. Full frames preserved.
+- All image files decoded successfully; gallery images lazy-loaded; homepage hero marked high priority.
+- Eight WhatsApp links use 35056020548 with an encoded quotation message.
+- Email links use proventautofilm@gmail.com.
+- One H1, descriptive title/meta description, canonical URL, Open Graph/Twitter tags and valid structured data.
+- Sitemap and project-level robots.txt included (host-root robots rules cannot be managed from this project folder).
+- JavaScript syntax validation passed.
+- Simulated DOM tests passed for menu toggle/closing, gallery category filtering, image viewer navigation/wraparound, focus restoration and quotation URL encoding.
+- No external runtime dependencies, tracking scripts or server form submission.
+
+NOT VERIFIED — requires browser/device testing and repository access
+- Actual mobile/desktop visual rendering, horizontal overflow, touch usability and contrast in rendered states.
+- Android/iPhone WhatsApp handoff and confirmation that the number resolves to the correct business conversation.
+- Actual mail application launch.
+- Native dialog rendering and keyboard interactions in real browsers.
+- Real network performance/Core Web Vitals.
+- GitHub Pages source settings (authenticated settings access unavailable).
+- Publication of this update: the live site still shows the earlier version. Previously confirmed the existing URL returns HTTP 200 and matches the downloaded original index.html.
+
+Do not treat this package as a verified live launch. Upload the extracted files to the repository root, wait for deployment, then perform the remaining checks.
